@@ -37,12 +37,12 @@ Replace webview icon:
 
 From the chromium/src directory:
 
-mkdir -p android_webview/apk/java/res/drawable-xxxhdpi
-cp chrome/android/java/res_chromium/mipmap-mdpi/app_icon.png android_webview/apk/java/res/drawable-mdpi/icon_webview.png
-cp chrome/android/java/res_chromium/mipmap-hdpi/app_icon.png android_webview/apk/java/res/drawable-hdpi/icon_webview.png
-cp chrome/android/java/res_chromium/mipmap-xhdpi/app_icon.png android_webview/apk/java/res/drawable-xhdpi/icon_webview.png
-cp chrome/android/java/res_chromium/mipmap-xxhdpi/app_icon.png android_webview/apk/java/res/drawable-xxhdpi/icon_webview.png
-cp chrome/android/java/res_chromium/mipmap-xxxhdpi/app_icon.png android_webview/apk/java/res/drawable-xxxhdpi/icon_webview.png
+mkdir -p android_webview/nonembedded/java/res_icon/drawable-xxxhdpi
+cp chrome/android/java/res_chromium_base/mipmap-mdpi/app_icon.png    android_webview/nonembedded/java/res_icon/drawable-mdpi/icon_webview.png
+cp chrome/android/java/res_chromium_base/mipmap-hdpi/app_icon.png    android_webview/nonembedded/java/res_icon/drawable-hdpi/icon_webview.png
+cp chrome/android/java/res_chromium_base/mipmap-xhdpi/app_icon.png   android_webview/nonembedded/java/res_icon/drawable-xhdpi/icon_webview.png
+cp chrome/android/java/res_chromium_base/mipmap-xxhdpi/app_icon.png  android_webview/nonembedded/java/res_icon/drawable-xxhdpi/icon_webview.png
+cp chrome/android/java/res_chromium_base/mipmap-xxxhdpi/app_icon.png android_webview/nonembedded/java/res_icon/drawable-xxxhdpi/icon_webview.png
 
 ------
 
