@@ -1,7 +1,7 @@
-From ee9b9f6cf5cee93fa885887278a95d47225d9033 Mon Sep 17 00:00:00 2001
+From 35dcf31ea4c4e4d46babf279d4cfbf5bc9fc91c4 Mon Sep 17 00:00:00 2001
 From: "Kevin F. Haggerty" <haggertk@lineageos.org>
 Date: Sun, 27 Dec 2020 09:42:54 -0700
-Subject: [PATCH] webview: Hard no to persistent histograms
+Subject: [PATCH 3/6] webview: Hard no to persistent histograms
 
 * It's probably some kind of bug somewhere that these are never
   deleted, but they don't really add value to us in the first
@@ -15,7 +15,7 @@ Subject: [PATCH] webview: Hard no to persistent histograms
  1 file changed, 2 insertions(+)
 
 diff --git a/android_webview/browser/aw_field_trials.cc b/android_webview/browser/aw_field_trials.cc
-index cf70a5e2f0b8..66eff327d4c7 100644
+index cf70a5e2f0b83..66eff327d4c70 100644
 --- a/android_webview/browser/aw_field_trials.cc
 +++ b/android_webview/browser/aw_field_trials.cc
 @@ -11,9 +11,11 @@
