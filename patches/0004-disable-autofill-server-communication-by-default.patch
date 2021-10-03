@@ -1,4 +1,4 @@
-From a4733b100a0859d745cafcea7b92efc199acaed6 Mon Sep 17 00:00:00 2001
+From 692bdf778f95edd796c385fd623e18136df55d61 Mon Sep 17 00:00:00 2001
 From: Daniel Micay <danielmicay@gmail.com>
 Date: Tue, 1 Dec 2020 00:56:57 -0500
 Subject: [PATCH 4/6] disable autofill server communication by default
@@ -8,7 +8,7 @@ Subject: [PATCH 4/6] disable autofill server communication by default
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/components/autofill/core/common/autofill_features.cc b/components/autofill/core/common/autofill_features.cc
-index df11fa247068c..39a387ed78e0a 100644
+index c836ebc6d56cc..021cf0288d677 100644
 --- a/components/autofill/core/common/autofill_features.cc
 +++ b/components/autofill/core/common/autofill_features.cc
 @@ -343,7 +343,7 @@ const base::Feature kAutofillSectionUponRedundantNameInfo{
