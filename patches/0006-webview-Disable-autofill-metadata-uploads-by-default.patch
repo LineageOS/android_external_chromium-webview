@@ -1,4 +1,4 @@
-From b4e543b413f639e72a5cafae590bea9576316184 Mon Sep 17 00:00:00 2001
+From 508f330841d95fe6fbbf026fd92cc28459cc47c0 Mon Sep 17 00:00:00 2001
 From: "Kevin F. Haggerty" <haggertk@lineageos.org>
 Date: Tue, 28 Sep 2021 08:43:01 -0600
 Subject: [PATCH 6/6] webview: Disable autofill metadata uploads by default
@@ -8,10 +8,10 @@ Subject: [PATCH 6/6] webview: Disable autofill metadata uploads by default
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/components/autofill/core/common/autofill_features.cc b/components/autofill/core/common/autofill_features.cc
-index 021cf0288d677..3b55e2690d33e 100644
+index 153eed1cdd0ac..f398c68af6dcb 100644
 --- a/components/autofill/core/common/autofill_features.cc
 +++ b/components/autofill/core/common/autofill_features.cc
-@@ -272,7 +272,7 @@ const base::Feature kAutofillPruneSuggestions{
+@@ -268,7 +268,7 @@ const base::Feature kAutofillPruneSuggestions{
      "AutofillPruneSuggestions", base::FEATURE_DISABLED_BY_DEFAULT};
  
  const base::Feature kAutofillMetadataUploads{"AutofillMetadataUploads",
