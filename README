@@ -9,7 +9,7 @@ https://www.chromium.org/developers/how-tos/build-instructions-android-webview
 ARM/ARM64
 
 The prebuilt libwebviewchromium.so included in these APKs is built from Chromium
-release tag 95.0.4638.50, using the GN build tool. To match our build settings, set:
+release tag 96.0.4664.45, using the GN build tool. To match our build settings, set:
 
 target_os = "android"
 is_debug = false
@@ -30,8 +30,8 @@ disable_autofill_assistant_dfm = true
 disable_tab_ui_dfm = true
 enable_gvr_services = false
 disable_fieldtrial_testing_config = true
-android_default_version_name = "95.0.4638.50"
-android_default_version_code = "4638050$$"
+android_default_version_name = "96.0.4664.45"
+android_default_version_code = "4664045$$"
 
 $$ depends on device ARCH
 (00=arm, 50=arm64, 10=x86, 60=x64)
