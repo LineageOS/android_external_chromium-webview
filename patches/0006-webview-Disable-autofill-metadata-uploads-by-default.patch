@@ -1,25 +1,27 @@
-From 508f330841d95fe6fbbf026fd92cc28459cc47c0 Mon Sep 17 00:00:00 2001
+From 7c592f3c7d40bff4bce36759047cf9b98bd9733e Mon Sep 17 00:00:00 2001
 From: "Kevin F. Haggerty" <haggertk@lineageos.org>
 Date: Tue, 28 Sep 2021 08:43:01 -0600
 Subject: [PATCH 6/6] webview: Disable autofill metadata uploads by default
 
+* [haggertk - 2021-11-16] - Update per d85f6c03db147
+  (Reland "[Autofill] Inline kAutofillMetadataUploads")
 ---
- components/autofill/core/common/autofill_features.cc | 2 +-
+ components/autofill/core/browser/randomized_encoder.cc | 2 +-
  1 file changed, 1 insertion(+), 1 deletion(-)
 
-diff --git a/components/autofill/core/common/autofill_features.cc b/components/autofill/core/common/autofill_features.cc
-index 153eed1cdd0ac..f398c68af6dcb 100644
---- a/components/autofill/core/common/autofill_features.cc
-+++ b/components/autofill/core/common/autofill_features.cc
-@@ -268,7 +268,7 @@ const base::Feature kAutofillPruneSuggestions{
-     "AutofillPruneSuggestions", base::FEATURE_DISABLED_BY_DEFAULT};
+diff --git a/components/autofill/core/browser/randomized_encoder.cc b/components/autofill/core/browser/randomized_encoder.cc
+index e9d84a1fcc542..0cadee9ae2f2c 100644
+--- a/components/autofill/core/browser/randomized_encoder.cc
++++ b/components/autofill/core/browser/randomized_encoder.cc
+@@ -186,7 +186,7 @@ const char RandomizedEncoder::kUrlKeyedAnonymizedDataCollectionEnabled[] =
+ std::unique_ptr<RandomizedEncoder> RandomizedEncoder::Create(
+     PrefService* pref_service) {
+   // Early abort if metadata uploads are not enabled.
+-  if (!pref_service) {
++  if (!pref_service || (true)) {
+     return nullptr;
+   }
  
- const base::Feature kAutofillMetadataUploads{"AutofillMetadataUploads",
--                                             base::FEATURE_ENABLED_BY_DEFAULT};
-+                                             base::FEATURE_DISABLED_BY_DEFAULT};
- 
- // When enabled, Autofill will load remote patterns via the component updater.
- // TODO(crbug/1121990): Remove once launched.
 -- 
 2.25.1
 
