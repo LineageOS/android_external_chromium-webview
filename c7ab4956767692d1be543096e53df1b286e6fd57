@@ -16,6 +16,24 @@
       "message": "Been running for a bit on with both architectures. Plan to merge after monthly cycle is complete.",
       "revId": "c7ab4956767692d1be543096e53df1b286e6fd57",
       "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "e98e9197_123cb075",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 3
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2022-01-28T04:41:59Z",
+      "side": 1,
+      "message": "nightly*",
+      "parentUuid": "71bb08d5_082784d3",
+      "revId": "c7ab4956767692d1be543096e53df1b286e6fd57",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
     }
   ]
 }
