@@ -1,4 +1,4 @@
-From d9ed89f96ad63c8eefb466200eada7ea3a7f2ff2 Mon Sep 17 00:00:00 2001
+From 797bb50715eb1177fccc2ee1265caceddf4a45c1 Mon Sep 17 00:00:00 2001
 From: Danny Baumann <dannybaumann@web.de>
 Date: Thu, 18 May 2017 11:04:40 +0200
 Subject: [PATCH 1/6] Add support for getting updates for theme color changes.
@@ -47,7 +47,7 @@ index 9222e72f7bb26..2940417ded468 100644
      public int getContentHeight() {
          recordWebViewApiCall(ApiCall.GET_CONTENT_HEIGHT);
 diff --git a/android_webview/glue/java/src/com/android/webview/chromium/WebViewContentsClientAdapter.java b/android_webview/glue/java/src/com/android/webview/chromium/WebViewContentsClientAdapter.java
-index 3ce9a05fef7d6..2b0630bf9a7bd 100644
+index 7a33684f639e7..c13dc98a4ddfc 100644
 --- a/android_webview/glue/java/src/com/android/webview/chromium/WebViewContentsClientAdapter.java
 +++ b/android_webview/glue/java/src/com/android/webview/chromium/WebViewContentsClientAdapter.java
 @@ -57,6 +57,8 @@ import org.chromium.components.embedder_support.util.WebResourceResponseInfo;

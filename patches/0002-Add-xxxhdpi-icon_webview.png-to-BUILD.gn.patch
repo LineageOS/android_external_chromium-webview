@@ -1,4 +1,4 @@
-From 6eab09eb58926e77a0440234d36b5d2aa5023b85 Mon Sep 17 00:00:00 2001
+From 76fd8f011cf6e87c69e4b4c67cd9be15edad5fd3 Mon Sep 17 00:00:00 2001
 From: "Kevin F. Haggerty" <haggertk@lineageos.org>
 Date: Tue, 19 May 2020 17:21:42 -0600
 Subject: [PATCH 2/6] Add xxxhdpi icon_webview.png to BUILD.gn
