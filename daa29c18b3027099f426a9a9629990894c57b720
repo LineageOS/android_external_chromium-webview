@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "33b5e0ac_10253340",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2022-04-03T21:42:58Z",
+      "side": 1,
+      "message": "arm (18.1) and arm64 (18.1, 19).\n\nI don\u0027t normally ship the first release of a new milestone, but this has fixes to actively exploited vulns.",
+      "revId": "daa29c18b3027099f426a9a9629990894c57b720",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
