@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "72225409_bbb94ad4",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 2
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 15173
+      },
+      "writtenOn": "2022-04-19T13:21:47Z",
+      "side": 1,
+      "message": "V for arm (18.1) and arm64 (18.1 and 19)\n\nThis resolves vulns being actively exploited",
+      "revId": "0f78a8f1881a480cb3e29d90e818e97662bfa05a",
+      "serverId": "1ec6b3db-b2c1-4fa4-84a2-4c7efe89ba71"
+    }
+  ]
+}
